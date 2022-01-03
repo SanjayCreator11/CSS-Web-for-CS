@@ -1,0 +1,148 @@
+#Container{
+    width: 1050px;
+/*    border: 1px solid grey;*/
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+h1 a{font-size: 50px;
+    font-weight: 100;
+    color: #61da29;
+    text-decoration: none;
+}
+
+.text{
+    float:left;
+    width:200px;
+    height:20px;
+    padding: 5px;
+    font-size: 15x;
+    color:Blue;
+    background: white;
+    background-image: url(images/search.png)
+}
+
+.submit{
+    float:right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: purple;
+}
+.clear{
+    clear: both;
+}
+
+#searchbox{
+    float: right;
+    background: linear-gradient(#6fcbf5,#0a99db);
+    width:400px;
+    height: 50px;
+    padding:15px 15px 0 15px;
+    margin-top: 20px;
+}
+#Brand{
+    float: left;
+}
+ul{
+    list-style :none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 10px ;
+    height:20px;
+    border-right: 1px solid #ffffff;
+    
+}
+
+#menu ul li a:hover,#menu ul li a.active{
+    font-size: 20px;
+    font font-weight: bold;
+    color: #1969cc;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#10d5d2,#f4fffd);
+    padding: 7px 0;
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 30px;
+    transition: font-size .3s ease;
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#introduction{
+    background: linear-gradient(#6fcbf5,#0a99db);
+    padding: 30px;
+    margin:16px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: White;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: white;
+    
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #f9e129;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: #0273fc;
+    font-size: 30px;
+}
+
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(images/LogoMakr-8W9Y6v.png);
+}
+
+.sidebar ul  li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.sidebar ul  li a:hover, .slidebar ul li a.active{
+    text-decoration: none;
+    color: #1965c2;
+    font-size: 40px;
+    transition: font-size .3s ease;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#f2b390,#ed7535,#c14300);
+    padding: 80px 50px;
+    font-size: 30px
+}
